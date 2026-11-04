@@ -1,0 +1,148 @@
+---
+pagetitle: "Ekaterina Boyarkina"
+---
+
+<!-- ==================== TOP SECTION ==================== -->
+::: {.hero}
+<img src="photo.jpg" alt="Ekaterina Boyarkina" class="avatar">
+
+::: {.hero-content}
+::: {.social-icons}
+[[]{.bi .bi-github}](https://github.com/kathrynblur){aria-label="GitHub"}
+[[]{.bi .bi-linkedin}](www.linkedin.com/in/ekaterina-boyarkina234){aria-label="LinkedIn"}
+:::
+
+# Ekaterina Boyarkina
+
+[Data Science and Machine Learning]{.hero-role}
+
+[Hi! I'm a Data Science graduate with experience in clinical data management looking for a machine learning engineering or data science role.]{.hero-text}
+
+::: {.interests}
+[Interests:]{.chip-title} [LLM Security]{.interest} [Adversarial Robustness]{.interest} [Convex Optimization]{.interest} [Attention and Transformers]{.interest}
+:::
+:::
+:::
+
+<!-- ==================== EXPERTISE ==================== -->
+
+::: {#expertise .page-section}
+## Expertise
+
+::: {.skills-grid}
+::: {.skill}
+[]{.python-icon}
+
+### Machine Learning
+
+I train and evaluate models on image and tabular data, from logistic regression to CNNs and pretrained ResNet-18. I have taken projects from preprocessing and EDA through to model evaluation.
+
+[Tech stack:]{.chip-title} [Python]{.chip} [PyTorch]{.chip} [scikit-learn]{.chip} [pandas]{.chip} [NumPy]{.chip} [Matplotlib]{.chip} [seaborn]{.chip} [XGBoost]{.chip} [Hugging Face]{.chip} [Weights & Biases]{.chip} [Git]{.chip}
+:::
+
+::: {.skill}
+[]{.bi .bi-shield-check .skill-icon}
+
+### Robustness and Explainability
+
+I test how models fail under FGSM attacks, and I compare defenses such as adversarial training. I have also used SHAP, LIME, and counterfactuals to explain cardiovascular risk predictions.
+
+[Methods:]{.chip-title} [FGSM]{.chip} [PGD]{.chip} [Adversarial training]{.chip} [Regularization]{.chip} [SHAP]{.chip} [LIME]{.chip} [Counterfactuals]{.chip}
+:::
+
+::: {.skill}
+[]{.bi .bi-database .skill-icon}
+
+### Data Engineering
+
+In clinical data management, I independently designed and built a Python app to automate eTMF maintenance. In a team project, we built a citation data crawler and ran PageRank on a supercomputer, on a graph with millions of nodes.
+
+[Tech stack:]{.chip-title} [SQL]{.chip} [PostgreSQL]{.chip} [Redis]{.chip} [FastAPI]{.chip} [Docker]{.chip} [SLURM]{.chip} [graph-tool]{.chip} [NetworkX]{.chip} [AWS]{.chip} [pytest]{.chip}
+:::
+:::
+:::
+
+<!-- ==================== CAREER HISTORY ==================== -->
+
+::: {#history .page-section}
+## Career History
+
+::: {.timeline}
+
+
+::: {.timeline-item}
+[Jan 2025 – Mar 2026]{.timeline-date}
+
+### Clinical Data Management
+
+Metronomia Clinical Research GmbH
+
+Built a Python app to automate eTMF maintenance and standardize document management workflows. Supported TMF upkeep, and system validation testing, contributed to eCRF setup.
+
+:::
+
+::: {.timeline-item}
+[2023 – 2026]{.timeline-date}
+
+### BSc Data Science
+
+Katholische Universität Eichstätt-Ingolstadt
+
+Relevant coursework: Foundations of Machine Learning, Statistical Learning, Data Mining, Optimization, Statistics, Linear Algebra, Algorithms and Data Structures, Software Engineering
+
+:::
+:::
+:::
+
+
+<!-- ==================== PROJECTS ==================== -->
+
+
+::: {#projects .page-section}
+## Projects
+
+::: {.projects-grid}
+::: {.project}
+### [Adversarial Robustness of Neural Networks](https://github.com/kathrynblur/adversarial-robustness)
+
+Started as my bachelor thesis, then became a tested Python package. Compares FGSM and PGD attacks, regularization, and adversarial training on logistic regression, CNNs, and ResNet-18. At ε = 0.15, adversarial training raised an MNIST CNN's accuracy under PGD from 19.7% to 88.6%. Includes a FastAPI service and a live Gradio demo.
+
+[Python]{.chip} [PyTorch]{.chip} [FastAPI]{.chip} [Gradio]{.chip} [Docker]{.chip} [pytest]{.chip} [GitHub Actions]{.chip} [Weights & Biases]{.chip}
+
+[Live demo](https://huggingface.co/spaces/kathrynblur/adversarial-robustness)
+:::
+
+::: {.project}
+### [PageRank on Academic Citation Graphs](https://github.com/kathrynblur/DataLab-PageRank)
+
+Crawled 50 million papers and 531 million references from the Semantic Scholar API, with a live dashboard to monitor progress. Computed PageRank on the FAU Erlangen-Nuremberg supercomputer and compared a custom NumPy implementation with NetworkX.
+
+[Python]{.chip} [PostgreSQL]{.chip} [Redis]{.chip} [FastAPI]{.chip} [graph-tool]{.chip} [Docker]{.chip} [SLURM]{.chip}
+:::
+
+::: {.project}
+### [Explainable AI for Cardiovascular Risk Prediction](https://github.com/kathrynblur/xai-cardiovascular-risk-prediction)
+
+Student research project. Trains classifiers to predict cardiovascular disease risk, then explains the predictions with SHAP, LIME, and counterfactual explanations.
+
+[Python]{.chip} [scikit-learn]{.chip} [pandas]{.chip} [SHAP]{.chip} [LIME]{.chip}
+:::
+
+::: {.project}
+### [Mushroom Edibility Classifier](https://github.com/kathrynblur/mushroom-predictor)
+
+Compares machine learning models that predict whether a mushroom is poisonous or edible, on a Kaggle dataset with 54,035 instances and 9 features.
+
+[Python]{.chip} [Jupyter]{.chip}
+:::
+:::
+:::
+
+<!-- ==================== CONTACT ==================== -->
+
+
+::: {#contact .page-section .contact}
+## Contact
+
+[kat234jaynes@gmail.com](mailto:kat234jaynes@gmail.com){.hero-button}
+:::

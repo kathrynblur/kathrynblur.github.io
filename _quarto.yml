@@ -1,0 +1,32 @@
+project:
+  type: website
+  output-dir: _site
+
+website:
+  title: "Ekaterina Boyarkina"
+  site-url: "https://kathrynblur.github.io"
+  description: "Data science and machine learning portfolio."
+  search: false
+  navbar:
+    right:
+      - text: Expertise
+        href: index.qmd#expertise
+      - text: History
+        href: index.qmd#history
+      - text: Projects
+        href: index.qmd#projects
+      - text: Contact
+        href: index.qmd#contact
+  page-footer:
+    center: "© 2026 Ekaterina Boyarkina"
+
+format:
+  html:
+    theme:
+      dark: darkly
+      light: cosmo
+    css: styles.css
+    page-layout: custom
+    title-block-style: none
+    anchor-sections: false
+    toc: false

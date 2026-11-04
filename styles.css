@@ -1,0 +1,355 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap");
+
+/* ---------- Colors. Change these values to change the site colors. ---------- */
+body.quarto-dark {
+  --page: #1e2023;
+  --card: #2a2d31;
+  --text: #ffffff;
+  --muted: #b4bac2;
+  --line: #3a3e44;
+  --accent: #fdba74;
+  --accent-solid: #c2410c;
+  --chip: #ffffff;
+  --chip-text: #272822;
+}
+
+body.quarto-light {
+  --page: #ffffff;
+  --card: #f5f3f0;
+  --text: #272822;
+  --muted: #59616b;
+  --line: #e2ded8;
+  --accent: #c2410c;
+  --accent-solid: #c2410c;
+  --chip: #fde8d7;
+  --chip-text: #272822;
+}
+
+/* ---------- Page ---------- */
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: var(--page);
+  color: var(--text);
+  font-family: "Lato", -apple-system, "Segoe UI", Roboto, sans-serif;
+  font-size: 1.1rem;
+}
+
+h1, h2, h3 {
+  color: var(--text);
+  font-family: "Lato", sans-serif;
+  font-weight: 700;
+  border: none !important;
+}
+
+.hero a,
+.page-section a {
+  color: var(--accent);
+  text-decoration: none;
+}
+
+.hero a:hover,
+.page-section a:hover {
+  text-decoration: underline;
+}
+
+.navbar {
+  background-color: var(--page) !important;
+  padding-top: 8.5px !important;
+  padding-bottom: 8.5px !important;
+  border-bottom: 1px solid var(--line);
+}
+
+.navbar .navbar-brand,
+.navbar .nav-link,
+.navbar .quarto-color-scheme-toggle {
+  color: var(--text) !important;
+}
+
+.navbar .nav-link:hover {
+  color: var(--accent) !important;
+}
+
+.nav-footer {
+  background-color: var(--page);
+  border-top: 1px solid var(--line);
+  color: var(--muted);
+}
+
+/* ---------- Top section ---------- */
+.hero {
+  display: flex;
+  gap: 2.5rem;
+  align-items: center;
+  min-height: calc(100vh - 57px);
+  min-height: calc(100svh - 57px);
+  padding: 3rem 15%;
+  background: url("hero-bg.svg") center / cover no-repeat;
+}
+
+.hero h1 {
+  font-size: clamp(2.8rem, 8vw, 5rem);
+  font-weight: 900;
+  line-height: 1.1;
+  margin: 0.5rem 0;
+}
+
+.hero-role {
+  display: block;
+  font-size: 1.5rem;
+}
+
+.hero-text {
+  display: block;
+  max-width: 620px;
+  color: var(--muted);
+  margin: 0.75rem 0 1.75rem;
+}
+
+.social-icons p {
+  display: flex;
+  gap: 0.75rem;
+  margin: 0;
+  font-size: 1.6rem;
+}
+
+.interests p {
+  margin: 0;
+}
+
+.interest {
+  display: inline-block;
+  margin: 0.2rem 0.1rem;
+  padding: 0.1rem 0.75rem;
+  border: 1px solid var(--accent);
+  border-radius: 999px;
+  color: var(--accent);
+  font-size: 0.85rem;
+}
+
+.hero .social-icons a {
+  color: var(--text);
+}
+
+.avatar {
+  flex-shrink: 0;
+  width: 180px;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.hero a.hero-button,
+.page-section a.hero-button {
+  display: inline-block;
+  padding: 0.6rem 1.4rem;
+  border-radius: 6px;
+  background-color: var(--accent-solid);
+  color: #ffffff;
+  font-weight: 700;
+}
+
+.hero a.hero-button:hover,
+.page-section a.hero-button:hover {
+  filter: brightness(1.2);
+  text-decoration: none;
+}
+
+/* ---------- Sections ---------- */
+.page-section {
+  padding: 4rem 10%;
+  scroll-margin-top: 70px;
+}
+
+.page-section h2 {
+  font-size: 2.4rem;
+  margin: 0 0 2.5rem;
+}
+
+/* ---------- Expertise ---------- */
+.skills-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 3rem;
+}
+
+.skill-icon {
+  display: block;
+  height: 2.6rem;
+  font-size: 2.6rem;
+  line-height: 1;
+  color: var(--accent);
+}
+
+.python-icon {
+  display: block;
+  width: 2.6rem;
+  height: 2.6rem;
+  background-color: var(--accent);
+  -webkit-mask: url("python-icon.svg") center / contain no-repeat;
+  mask: url("python-icon.svg") center / contain no-repeat;
+}
+
+.skill h3 {
+  font-size: 1.4rem;
+  margin-top: 0.75rem;
+}
+
+.chip-title {
+  margin-right: 0.25rem;
+  font-weight: 700;
+}
+
+.chip {
+  display: inline-block;
+  margin: 0.15rem 0.1rem;
+  padding: 0.1rem 0.7rem;
+  border-radius: 999px;
+  background-color: var(--chip);
+  color: var(--chip-text);
+  font-family: "Courier New", monospace;
+  font-size: 0.8rem;
+  font-weight: 700;
+}
+
+/* ---------- Career history ---------- */
+.timeline {
+  position: relative;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.timeline::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 50%;
+  width: 3px;
+  background-color: var(--line);
+}
+
+.timeline-item {
+  position: relative;
+  width: calc(50% - 2rem);
+  margin-bottom: 2rem;
+  padding: 1.25rem 1.5rem;
+  border-radius: 8px;
+  background-color: var(--card);
+}
+
+.timeline-item:nth-child(even) {
+  margin-left: calc(50% + 2rem);
+}
+
+.timeline-item::before {
+  content: "";
+  position: absolute;
+  top: 1.6rem;
+  right: calc(-2rem - 8px);
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  background-color: var(--accent-solid);
+}
+
+.timeline-item:nth-child(even)::before {
+  left: calc(-2rem - 7px);
+  right: auto;
+}
+
+.timeline-date {
+  color: var(--accent);
+  font-size: 0.9rem;
+  font-weight: 700;
+}
+
+.timeline-item h3 {
+  font-size: 1.25rem;
+  margin: 0.25rem 0 0.5rem;
+}
+
+.timeline-item p {
+  margin-bottom: 0.4rem;
+}
+
+/* ---------- Projects ---------- */
+.projects-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 2rem;
+}
+
+.project {
+  padding: 1.5rem;
+  border-radius: 8px;
+  background-color: var(--card);
+  transition: transform 0.2s;
+}
+
+.project:hover {
+  transform: scale(1.02);
+}
+
+.project h3 {
+  font-size: 1.35rem;
+  margin-top: 0;
+}
+
+.page-section .project h3 a {
+  color: var(--text);
+  font-weight: 700;
+}
+
+.project p:last-child {
+  margin-bottom: 0;
+}
+
+/* ---------- Contact ---------- */
+.contact {
+  text-align: center;
+}
+
+/* ---------- Tablets and phones ---------- */
+@media (max-width: 992px) {
+  .skills-grid {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+
+  .timeline::before {
+    left: 8px;
+  }
+
+  .timeline-item,
+  .timeline-item:nth-child(even) {
+    width: calc(100% - 2.5rem);
+    margin-left: 2.5rem;
+  }
+
+  .timeline-item::before,
+  .timeline-item:nth-child(even)::before {
+    left: calc(-2.5rem + 1px);
+    right: auto;
+  }
+}
+
+@media (max-width: 700px) {
+  .hero {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1.5rem;
+    padding: 3.5rem 16px 2rem;
+    padding-top: 3.5rem !important;
+  }
+
+  .page-section {
+    padding: 3rem 16px;
+  }
+
+  .projects-grid {
+    grid-template-columns: 1fr;
+  }
+}
