@@ -1,18 +1,18 @@
 ---
-pagetitle: "Ekaterina Boyarkina"
+pagetitle: "Ekaterina Jaynes"
 ---
 
 <!-- ==================== TOP SECTION ==================== -->
 ::: {.hero}
-<img src="photo.jpg" alt="Ekaterina Boyarkina" class="avatar">
+<img src="photo.jpg" alt="Ekaterina Jaynes" class="avatar">
 
 ::: {.hero-content}
 ::: {.social-icons}
 [[]{.bi .bi-github}](https://github.com/kathrynblur){aria-label="GitHub"}
-[[]{.bi .bi-linkedin}](www.linkedin.com/in/ekaterina-boyarkina234){aria-label="LinkedIn"}
+[[]{.bi .bi-linkedin}](https://www.linkedin.com/in/ekaterina-jaynes){aria-label="LinkedIn"}
 :::
 
-# Ekaterina Boyarkina
+# Ekaterina Jaynes
 
 [Data Science and Machine Learning]{.hero-role}
 
@@ -144,5 +144,5 @@ Compares machine learning models that predict whether a mushroom is poisonous or
 ::: {#contact .page-section .contact}
 ## Contact
 
-[kat234jaynes@gmail.com](mailto:kat234jaynes@gmail.com){.hero-button}
+[katerina.jaynes@gmail.com](mailto:katerina.jaynes@gmail.com){.hero-button}
 :::

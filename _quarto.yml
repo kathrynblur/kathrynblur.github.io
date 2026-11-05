@@ -3,7 +3,7 @@ project:
   output-dir: _site
 
 website:
-  title: "Ekaterina Boyarkina"
+  title: "Ekaterina Jaynes"
   site-url: "https://kathrynblur.github.io"
   description: "Data science and machine learning portfolio."
   search: false
