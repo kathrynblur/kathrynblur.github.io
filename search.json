@@ -2,29 +2,29 @@
   {
     "objectID": "index.html#expertise",
     "href": "index.html#expertise",
-    "title": "Ekaterina Boyarkina",
+    "title": "Ekaterina Jaynes",
     "section": "Expertise",
     "text": "Expertise\n\n\n\n\nMachine Learning\nI train and evaluate models on image and tabular data, from logistic regression to CNNs and pretrained ResNet-18. I have taken projects from preprocessing and EDA through to model evaluation.\nTech stack: Python PyTorch scikit-learn pandas NumPy Matplotlib seaborn XGBoost Hugging Face Weights & Biases Git\n\n\n\n\n\nRobustness and Explainability\nI test how models fail under FGSM attacks, and I compare defenses such as adversarial training. I have also used SHAP, LIME, and counterfactuals to explain cardiovascular risk predictions.\nMethods: FGSM PGD Adversarial training Regularization SHAP LIME Counterfactuals\n\n\n\n\n\nData Engineering\nIn clinical data management, I independently designed and built a Python app to automate eTMF maintenance. In a team project, we built a citation data crawler and ran PageRank on a supercomputer, on a graph with millions of nodes.\nTech stack: SQL PostgreSQL Redis FastAPI Docker SLURM graph-tool NetworkX AWS pytest"
   },
   {
     "objectID": "index.html#career-history",
     "href": "index.html#career-history",
-    "title": "Ekaterina Boyarkina",
+    "title": "Ekaterina Jaynes",
     "section": "Career History",
     "text": "Career History\n\n\nJan 2025 – Mar 2026\n\nClinical Data Management\nMetronomia Clinical Research GmbH\nBuilt a Python app to automate eTMF maintenance and standardize document management workflows. Supported TMF upkeep, and system validation testing, contributed to eCRF setup.\n\n\n\n2023 – 2026\n\nBSc Data Science\nKatholische Universität Eichstätt-Ingolstadt\nRelevant coursework: Foundations of Machine Learning, Statistical Learning, Data Mining, Optimization, Statistics, Linear Algebra, Algorithms and Data Structures, Software Engineering"
   },
   {
     "objectID": "index.html#projects",
     "href": "index.html#projects",
-    "title": "Ekaterina Boyarkina",
+    "title": "Ekaterina Jaynes",
     "section": "Projects",
     "text": "Projects\n\n\nAdversarial Robustness of Neural Networks\nStarted as my bachelor thesis, then became a tested Python package. Compares FGSM and PGD attacks, regularization, and adversarial training on logistic regression, CNNs, and ResNet-18. At ε = 0.15, adversarial training raised an MNIST CNN’s accuracy under PGD from 19.7% to 88.6%. Includes a FastAPI service and a live Gradio demo.\nPython PyTorch FastAPI Gradio Docker pytest GitHub Actions Weights & Biases\nLive demo\n\n\nPageRank on Academic Citation Graphs\nCrawled 50 million papers and 531 million references from the Semantic Scholar API, with a live dashboard to monitor progress. Computed PageRank on the FAU Erlangen-Nuremberg supercomputer and compared a custom NumPy implementation with NetworkX.\nPython PostgreSQL Redis FastAPI graph-tool Docker SLURM\n\n\nExplainable AI for Cardiovascular Risk Prediction\nStudent research project. Trains classifiers to predict cardiovascular disease risk, then explains the predictions with SHAP, LIME, and counterfactual explanations.\nPython scikit-learn pandas SHAP LIME\n\n\nMushroom Edibility Classifier\nCompares machine learning models that predict whether a mushroom is poisonous or edible, on a Kaggle dataset with 54,035 instances and 9 features.\nPython Jupyter"
   },
   {
     "objectID": "index.html#contact",
     "href": "index.html#contact",
-    "title": "Ekaterina Boyarkina",
+    "title": "Ekaterina Jaynes",
     "section": "Contact",
-    "text": "Contact\nkat234jaynes@gmail.com"
+    "text": "Contact\nkaterina.jaynes@gmail.com"
   }
 ]
